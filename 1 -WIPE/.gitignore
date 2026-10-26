@@ -1,0 +1,14 @@
+# Dependências
+node_modules/
+
+# Relatórios do Cypress e evidências de testes (opcional, mas recomendado)
+cypress/videos/
+cypress/screenshots/
+mochawesome-report/
+cypress/fixtures
+
+# Logs e arquivos de sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
