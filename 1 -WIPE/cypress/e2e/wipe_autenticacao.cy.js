@@ -43,7 +43,7 @@ describe('Login', () => {
     })
     
   })
-  it('Deve deslogar o usuário após 15 minutos de inatividade', () => {
+  it('Deve deslogar o usuário após inatividade', () => {
     cy.get('@dadosLogin').then((dados) => {
       cy.login(dados.credenciaisValidas);
       cy.wait(2000)
